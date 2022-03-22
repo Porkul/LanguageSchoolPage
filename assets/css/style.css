@@ -72,6 +72,11 @@ h4 {
   font-size: 1.3rem;
 }
 
+h4 > span{
+  color: var(--color-red);
+}
+
+
 a {
   color: var(--color-gray);
 }
@@ -82,9 +87,6 @@ img {
   object-fit: cover;
 }
 
-span{
-  color: var(--color-red);
-}
 .btn {
   display: inline-block;
   background: var(--color-red);
